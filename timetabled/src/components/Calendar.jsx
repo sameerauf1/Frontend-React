@@ -8,6 +8,7 @@ const Calendar = () => {
         <table>
             <thead>
                 <tr>
+                    <th></th>
                     <th>Sunday</th>
                     <th>Monday</th>
                     <th>Tuesday</th>
@@ -62,6 +63,7 @@ const Calendar = () => {
                 <td className="time">12 pm</td>
                 <td></td>
                 <td></td>
+                <Event event = 'Chinese 🍜' color = 'orange' location = 'Nomad Asian Bistro'/>
                 <td></td>
                 <td></td>
                 <td></td>
